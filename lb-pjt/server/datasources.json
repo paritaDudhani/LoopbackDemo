@@ -1,0 +1,29 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory",
+    "file": "lb-pjt.json"
+  },
+  "mongod": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "mongodb://localhost:27017/lb-pjt",
+    "database": "lb-pjt",
+    "password": "",
+    "name": "mongod",
+    "user": "",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  },
+  "mongoatlas": {
+    "host": "cluster0-ixpm0.mongodb.net",
+    "port": 27017,
+    "url": "mongodb+srv://Dudhani:mongodbb@cluster0-ixpm0.mongodb.net/test?retryWrites=true&w=majority",
+    "database": "loopback",
+    "password": "mongodbb",
+    "name": "mongoatlas",
+    "user": "Dudhani",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  }
+}
